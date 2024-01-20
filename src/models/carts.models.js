@@ -2,6 +2,7 @@ import {Schema, model} from 'mongoose';
 
 const cartColecction = 'carts'
 
+// Cart Model
 const cartSchema = new Schema({
     products: {
      type:[{
